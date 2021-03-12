@@ -6,7 +6,7 @@ import (
 
 	"github.com/micro/cli/v2"
 	log "github.com/btccom/go-micro/v2/logger"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/btccom/go-micro-platform/v2/plugin"
 
 	// prometheus metrics
 	"github.com/btccom/go-micro-plugins/micro/metrics/prometheus/v2"

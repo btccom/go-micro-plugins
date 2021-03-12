@@ -25,7 +25,7 @@ Register the plugin before building Micro
 package main
 
 import (
-	"github.com/micro/micro/v2/plugin"
+	"github.com/btccom/go-micro-platform/v2/plugin"
 	"github.com/btccom/go-micro-plugins/micro/router/v2"
 )
 

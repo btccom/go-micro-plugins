@@ -18,7 +18,7 @@ import (
 	"github.com/btccom/go-micro/v2/registry"
 	"github.com/btccom/go-micro/v2/server"
 	"github.com/btccom/go-micro/v2/transport"
-	mp "github.com/micro/micro/v2/plugin"
+	mp "github.com/btccom/go-micro-platform/v2/plugin"
 )
 
 // Plugin is a plugin loaded from a file
