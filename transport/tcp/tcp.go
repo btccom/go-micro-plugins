@@ -9,12 +9,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/transport"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	log "github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/transport"
+	maddr "github.com/btccom/go-micro/v2/util/addr"
+	mnet "github.com/btccom/go-micro/v2/util/net"
+	mls "github.com/btccom/go-micro/v2/util/tls"
 )
 
 type tcpTransport struct {

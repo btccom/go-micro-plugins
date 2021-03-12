@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	microerr "github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/btccom/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/client/selector"
+	microerr "github.com/btccom/go-micro/v2/errors"
+	"github.com/btccom/go-micro/v2/registry/memory"
+	"github.com/btccom/go-micro/v2/server"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/stretchr/testify/assert"
 
-	cli "github.com/micro/go-micro/v2/client"
-	srv "github.com/micro/go-micro/v2/server"
+	cli "github.com/btccom/go-micro/v2/client"
+	srv "github.com/btccom/go-micro/v2/server"
 )
 
 type Test interface {

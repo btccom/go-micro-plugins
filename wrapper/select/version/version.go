@@ -4,9 +4,9 @@ import (
 	"context"
 	"sort"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/btccom/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/client/selector"
+	"github.com/btccom/go-micro/v2/registry"
 )
 
 // NewClientWrapper is a wrapper which selects only latest versions of services

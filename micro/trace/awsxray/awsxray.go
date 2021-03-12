@@ -6,8 +6,8 @@ import (
 
 	"github.com/asim/go-awsxray"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	xray "github.com/micro/go-plugins/wrapper/trace/awsxray/v2"
+	"github.com/btccom/go-micro/v2/client"
+	xray "github.com/btccom/go-micro-plugins/wrapper/trace/awsxray/v2"
 	"github.com/micro/micro/v2/plugin"
 )
 

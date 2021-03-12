@@ -1,4 +1,4 @@
-module github.com/micro/go-plugins/micro/stats_auth/v2
+module github.com/btccom/go-micro-plugins/micro/stats_auth/v2
 
 go 1.13
 

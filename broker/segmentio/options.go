@@ -3,7 +3,7 @@ package segmentio
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/btccom/go-micro/v2/broker"
 	kafka "github.com/segmentio/kafka-go"
 )
 

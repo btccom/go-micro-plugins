@@ -3,7 +3,7 @@ package pkger
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/btccom/go-micro/v2/config/source"
 )
 
 type pkgerPathKey struct{}

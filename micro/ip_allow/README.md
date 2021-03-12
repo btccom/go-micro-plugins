@@ -13,7 +13,7 @@ package main
 
 import (
 	"github.com/micro/micro/plugin"
-	ip "github.com/micro/go-plugins/micro/ip_allow"
+	ip "github.com/btccom/go-micro-plugins/micro/ip_allow"
 )
 
 func init() {
@@ -37,7 +37,7 @@ package main
 
 import (
 	"github.com/micro/micro/api"
-	ip "github.com/micro/go-plugins/micro/ip_allow"
+	ip "github.com/btccom/go-micro-plugins/micro/ip_allow"
 )
 
 func init() {

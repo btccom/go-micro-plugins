@@ -3,7 +3,7 @@ package gocloud
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/btccom/go-micro/v2/broker"
 	"gocloud.dev/gcp"
 )
 

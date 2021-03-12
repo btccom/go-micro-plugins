@@ -10,7 +10,7 @@ Create a plugin file
 package main
 
 import (
-	"github.com/micro/go-plugins/micro/header"
+	"github.com/btccom/go-micro-plugins/micro/header"
 	"github.com/micro/micro/plugin"
 )
 

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/btccom/go-micro/v2/broker"
 )
 
 func TestBroker(t *testing.T) {

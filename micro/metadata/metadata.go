@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/client"
 	"github.com/micro/micro/v2/plugin"
 )
 

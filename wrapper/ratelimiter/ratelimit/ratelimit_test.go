@@ -8,13 +8,13 @@ import (
 	"context"
 
 	"github.com/juju/ratelimit"
-	bmemory "github.com/micro/go-micro/v2/broker/memory"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/errors"
-	rmemory "github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
-	tmemory "github.com/micro/go-micro/v2/transport/memory"
+	bmemory "github.com/btccom/go-micro/v2/broker/memory"
+	"github.com/btccom/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/client/selector"
+	"github.com/btccom/go-micro/v2/errors"
+	rmemory "github.com/btccom/go-micro/v2/registry/memory"
+	"github.com/btccom/go-micro/v2/server"
+	tmemory "github.com/btccom/go-micro/v2/transport/memory"
 )
 
 type testHandler struct{}

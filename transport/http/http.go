@@ -2,8 +2,8 @@
 package http
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	"github.com/btccom/go-micro/v2/transport"
 )
 
 func init() {

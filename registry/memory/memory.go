@@ -2,9 +2,9 @@
 package memory
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/memory"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	"github.com/btccom/go-micro/v2/registry"
+	"github.com/btccom/go-micro/v2/registry/memory"
 )
 
 func init() {

@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/codec/jsonrpc"
-	"github.com/micro/go-micro/v2/codec/protorpc"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/btccom/go-micro/v2/broker"
+	"github.com/btccom/go-micro/v2/codec"
+	"github.com/btccom/go-micro/v2/codec/jsonrpc"
+	"github.com/btccom/go-micro/v2/codec/protorpc"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	log "github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/registry"
+	"github.com/btccom/go-micro/v2/server"
 )
 
 var (

@@ -1,7 +1,7 @@
 package proxy
 
 import (
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/btccom/go-micro/v2/broker"
 )
 
 type publication struct {

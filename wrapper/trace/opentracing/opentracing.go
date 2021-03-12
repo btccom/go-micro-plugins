@@ -7,10 +7,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/btccom/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/metadata"
+	"github.com/btccom/go-micro/v2/registry"
+	"github.com/btccom/go-micro/v2/server"
 	opentracing "github.com/opentracing/opentracing-go"
 	opentracinglog "github.com/opentracing/opentracing-go/log"
 )

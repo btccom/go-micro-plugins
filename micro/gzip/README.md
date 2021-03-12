@@ -11,7 +11,7 @@ package main
 
 import (
 	"github.com/micro/micro/plugin"
-	"github.com/micro/go-plugins/micro/gzip"
+	"github.com/btccom/go-micro-plugins/micro/gzip"
 )
 
 func init() {
@@ -29,7 +29,7 @@ package main
 
 import (
 	"github.com/micro/micro/api"
-	"github.com/micro/go-plugins/micro/gzip"
+	"github.com/btccom/go-micro-plugins/micro/gzip"
 )
 
 func init() {

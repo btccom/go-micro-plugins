@@ -1,4 +1,4 @@
-module github.com/micro/go-plugins/micro/gzip/v2
+module github.com/btccom/go-micro-plugins/micro/gzip/v2
 
 go 1.13
 

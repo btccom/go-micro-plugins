@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-mod="github.com/micro/go-plugins"
+mod="github.com/btccom/go-micro-plugins"
 PKGS=""
 for d in $(find * -name 'go.mod'); do
   pushd $(dirname $d) >/dev/null

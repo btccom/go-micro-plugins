@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/codec/json"
-	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/btccom/go-micro/v2/broker"
+	"github.com/btccom/go-micro/v2/codec"
+	"github.com/btccom/go-micro/v2/codec/json"
+	"github.com/btccom/go-micro/v2/config/cmd"
 )
 
 func init() {

@@ -3,8 +3,8 @@ package allow
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/errors"
+	"github.com/btccom/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/errors"
 )
 
 type wrapper struct {

@@ -6,13 +6,13 @@ import (
 	"strings"
 
 	"github.com/micro/cli/v2"
-	log "github.com/micro/go-micro/v2/logger"
+	log "github.com/btccom/go-micro/v2/logger"
 	"github.com/micro/micro/v2/plugin"
 
 	// enterprise auth
-	"github.com/micro/go-plugins/micro/auth/v2/basic"
-	"github.com/micro/go-plugins/micro/auth/v2/digest"
-	"github.com/micro/go-plugins/micro/auth/v2/ldap"
+	"github.com/btccom/go-micro-plugins/micro/auth/v2/basic"
+	"github.com/btccom/go-micro-plugins/micro/auth/v2/digest"
+	"github.com/btccom/go-micro-plugins/micro/auth/v2/ldap"
 )
 
 type Auth struct {
